@@ -1,8 +1,6 @@
-#language: pt
+Feature: Consulta
+    Scenario:  Consulta de Ovo de Pascoa
 
-  Funcionalidade: Consulta
-    Cenario: Consulta de Ovo de Pascoa
-
-    Dado que acesso a Wikipedia em Portugues
-    Quando pesquiso por "Ovo de Páscoa"
-    Entao Exibe a expressao "Ovo de Páscoa" no titulo da guia
+    Given que acesso a Wikipedia em Portugues
+    When pesquiso por "Ovo de Páscoa"
+    Then Exibe a expressao "Ovo de Páscoa" no titulo da guia

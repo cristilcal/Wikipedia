@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3338885240,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Consulta de Ovo de Pascoa",
+        "description": "",
+        "id": "consulta;consulta-de-ovo-de-pascoa",
+        "after": [
+          {
+            "result": {
+              "duration": 88716076,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4630973819,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que acesso a Wikipedia em Portugues",
+            "match": {
+              "location": "Post.que_acesso_a_Wikipedia_em_Portugues()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3446764831,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "pesquiso por \"Ovo de Páscoa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ovo de Páscoa",
+                  "offset": 14
+                }
+              ],
+              "location": "Post.pesquiso_por(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 537248103,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Exibe a expressao \"Ovo de Páscoa\" no titulo da guia",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ovo de Páscoa",
+                  "offset": 19
+                }
+              ],
+              "location": "Post.exibe_a_expressao_no_titulo_da_guia(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Consulta",
+    "description": "",
+    "id": "consulta",
+    "keyword": "Feature",
+    "uri": "Post.feature"
+  }
+]
